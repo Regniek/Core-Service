@@ -1,34 +1,6 @@
-* Start Date: (2021-06-28)
+* Start Date: (2021-16-06)
 * RFC PR:
 * Core services Module:
-# Summary
-Core services is a module for implementing the process of authorization and authentication for all services in the platform Platzily.
-
-# Motivation
-### What are we doing this?
-this development will allow improvement in different knowledge, for example, the correct form to create an architecture, what must have in consideration for implement how's
-* structure
-* database for selecting
-* language for selecting
-* providers of services
-* how to encrypt information
-* how to generate the integration with other services.
-* how to standarize the ask for to information
-
-### What use cases does it support?
-
-* encrypt information when is received and distribute for appropriate service.
-
-* receive all config about other services and changed for handling since core service
-
-* protect the infrastructure of other services
-
-ui login
-plugin de oauth
-
-- Start Date: (2021-16-06)
-- RFC PR:
-- Admin services Module:
 
 # Summary
 
@@ -42,18 +14,24 @@ Services like:
 
 # Motivation
 
-Why are we doing this?
+### What are we doing this?
+this development will allow improvement in different knowledge, for example, the correct form to create an architecture, what must have in consideration for implement how's
 
-- The system requires a control for all the calls inside the application, and manage the apis issues, campaings, statistics, links and users.
+* providers of services
+* how to encrypt information
+* how to generate the integration with other services.
+* how to standarize the ask for to information
+* The system requires a control for all the calls inside the application, and manage the apis issues, campaings, statistics, links and users.
 
-What use cases does it support?
+### What use cases does it support?
 
 - Expose a public api with only the methods the client need.
 - Mantain as private the services and methods who need to be private.
 - Protect the application from attacks.
-- 
+- Allow easily the authorization methods for other services.
+- Protectly the user information.
 
-What is the expected outcome?
+### What is the expected outcome?
 
 - Successfully control over authentication services.
 - Manage the api calls.
@@ -70,7 +48,7 @@ What is the expected outcome?
 
 - As a team and students we want challenge ourselves in learning process of a entirely new programing lenguage.
 
-- Is the favorite programing lenguage of our CEO.
+- Is the second favorite programing lenguage of our CEO.
 
 ## Apigateway
 
@@ -123,11 +101,21 @@ Objectives:
 
 - Protect resources using OAuth2 client-credential.
 
+- it's will standardize the process to ask for config routes in other services, to upload for a helm process.
+
 -
 
-## Como construir el archivo de configuración de Krakend
--- Cada equipo va a crear un archivo de configuracion con nuestras especificaciones para despues de manera automatizadas crear el archivo de configuración final para Krakend.
 
+# Drawbacks
+This architecture has certain drawbacks like:
 
+* Possible fail will could make broken up all services because block authorization services.
 
+* Hard integration between relationships with all services.
+
+* Requires a fast learning curve for implementing.
+
+# Conclusions 
+
+this project allows improving knowledge in a software development, strengthen how to read the architecture, how to apply different methods to build one app, why generate the core services since authorization and authentication of applications, how to gearing with other services, how to implement providers for auth0 and auht2, who to work other lenguage and why select that
 
