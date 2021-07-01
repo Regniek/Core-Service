@@ -17,10 +17,10 @@ Services like:
 ### What are we doing this?
 this development will allow improvement in different knowledge, for example, the correct form to create an architecture, what must have in consideration for implement how's
 
-* providers of services
-* how to encrypt information
-* how to generate the integration with other services.
-* how to standarize the ask for to information
+* Providers of services
+* How to encrypt information
+* How to generate the integration with other services.
+* How to standarize the ask for to information
 * The system requires a control for all the calls inside the application, and manage the apis issues, campaings, statistics, links and users.
 
 ### What use cases does it support?
@@ -117,5 +117,5 @@ This architecture has certain drawbacks like:
 
 # Conclusions 
 
-this project allows improving knowledge in a software development, strengthen how to read the architecture, how to apply different methods to build one app, why generate the core services since authorization and authentication of applications, how to gearing with other services, how to implement providers for auth0 and auht2, who to work other lenguage and why select that
+This project allows improving knowledge in a software development, strengthen how to read the architecture, how to apply different methods to build one app, why generate the core services since authorization and authentication of applications, how to gearing with other services, how to implement providers for auth0 and auht2, who to work other lenguage and why select that
 
