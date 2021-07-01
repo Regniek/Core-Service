@@ -18,9 +18,8 @@ Services like:
 this development will allow improvement in different knowledge, for example, the correct form to create an architecture, what must have in consideration for implement how's
 
 * Providers of services
-* How to encrypt information
-* How to generate the integration with other services.
-* How to standarize the ask for to information
+* Hanlder information secure with encrypt or hash with JW.
+* Generate the integration services with standarize method.
 * The system requires a control for all the calls inside the application, and manage the apis issues, campaings, statistics, links and users.
 
 ### What use cases does it support?
