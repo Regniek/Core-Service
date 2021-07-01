@@ -103,7 +103,6 @@ Objectives:
 
 - it's will standardize the process to ask for config routes in other services, to upload for a helm process.
 
--
 
 
 # Drawbacks
@@ -114,6 +113,10 @@ This architecture has certain drawbacks like:
 * Hard integration between relationships with all services.
 
 * Requires a fast learning curve for implementing.
+
+* High responsability
+
+* Sopport concurrency
 
 # Conclusions 
 
